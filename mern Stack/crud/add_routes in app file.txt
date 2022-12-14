@@ -1,0 +1,21 @@
+
+
+
+////// important for securty
+
+const rateLimit = require('express-rate-limit');
+const helmet = require('helmet');
+const mongoSanitize = require('express-mongo-sanitize');
+const xss = require('xss-clean');
+
+//// end
+
+
+const app = express();
+
+app.use(express.json());
+
+
+
+
+app.use('/api/v1/tours', tourRouter);
