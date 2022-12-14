@@ -1,0 +1,54 @@
+.card-categories-li-content {
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding-top: 16px;
+}
+
+.card-categories-name .text {
+  margin: 8px 12px 0;
+  font-size: 14px;
+  color: #212121;
+  line-height: 18px;
+  height: 36px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+
+use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
+use Illuminate\Auth\Authenticatable;
+use Illuminate\Notifications\Notifiable;
+use Laravel\Passport\HasApiTokens;
+
+
+
+ $table->foreign('order_id')->references('id')->on('orders')->onDelete('cascade');
+
+
+
+
+
+
+
+Issues 
+-first or all i have no idea to use localsotrage in ajax
+- i have no idea to use js advance selection 
+
+
+
+
+
+
+
+
+
+
+
+
+
+admin@admin.com
+
+*kOgA(0EH316

@@ -1,0 +1,16 @@
+HTML: html.com
+CSS: web.dev/learn/css
+JavaScript: javascript.info
+React: react-tutorial.app
+Vue: learnvue.co
+Git: git-scm.com/book
+Web3: learnweb3.io
+Python: learnpython.org
+SQL: w3schools.com/sql
+Blockchain: cryptozombies.io
+Nextjs: nextjs.org/learn
+AI: elementsofai.com
+ML: https://lnkd.in/eAPx7YWk
+PHP: phptherightway.com
+API: rapidapi.com/learn
+GO: learn-golang.org

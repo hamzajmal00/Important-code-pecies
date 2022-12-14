@@ -1,0 +1,252 @@
+Development Environment Setup
+
+Uses of Console and Comments in JavaScript
+
+What is ES6
+
+Declare a Variable
+
+Uses of Let and Const
+03:34
+Primitive Data types
+07:47
+Reference types: Object (Basics
+06:58
+Reference types: Array (Basics)
+06:08
+Reference types: Function (Basics)
+09:49
+Template Literals
+06:06
+Exercise - Person Object
+
+Arithmetic Operators
+04:51
+Assignment Operators
+07:28
+Comparison Operators
+05:02
+Logical Operators
+07:11
+Equality Operators
+04:12
+Exercise Swap two numbers
+
+If else
+06:58
+Switch case
+04:31
+Ternary Operators
+05:07
+Exercise Fizz Buzz
+07:15
+Exercise Fizz Buzz (With Ternary Operators)
+05:24
+Exercise Our Grading System
+07:27
+Switch case with multiple logical operators
+
+For loop
+05:27
+While loop
+03:04
+Do while loop
+04:44
+For in loop
+06:44
+For of loop
+03:12
+Break and continue
+04:44
+Infinite loops
+03:10
+Nested Loops
+
+String Basics
+06:17
+String Methods: charAt, toUpperCase, toLowerCase, includes, startsWith, endsWith
+06:38
+String Methods: Search, IndexOf, lastIndexOf
+04:41
+String Methods: toString, Concat, split
+08:13
+String Methods: slice, subStr, subString
+06:22
+Escape Sequences
+04:50
+String Immutability
+
+Object Basics with Dot Bracket Notation
+05:45
+Adding, Modifying Deleting Properties
+07:44
+Object Methods This Keyword
+06:13
+Traversing Object Entries
+06:48
+Exercise Total Salary
+07:19
+Object Destructuring
+06:32
+Cloning an object
+05:49
+Math Object
+04:02
+JSON Data Format
+
+Function Basics
+08:49
+Default Parameters
+03:49
+Function as an Expression
+04:26
+Arrow Functions
+05:50
+Rest Parameter
+
+Array Basics
+04:47
+Adding Elements
+05:47
+Removing Elements
+04:22
+Finding Elements (Primitive Type)
+05:06
+Finding Elements (Reference Type)
+05:06
+Iterating an array-
+05:57
+Sorting and Reversing an array
+08:05
+Testing the elements of the array
+03:47
+Combining and Slicing the array
+05:21
+Spread Operators
+05:48
+Joining Array
+04:58
+Mapping an array
+07:59
+Filtering an array
+05:46
+Reducing an array
+
+Array Object Destructuring
+08:15
+Data Structure: Set
+06:14
+Data Structure: Map
+07:49
+Weak Set + Weak Map
+07:44
+Module (Import Export)
+04:31
+padStart, padEnd TrimStart, TrimEnd
+
+Different types of errors in JavaScript.
+07:27
+Exercise Throw Custom Error Object
+03:44
+Handle Errors with try, catch, and finally block
+06:19
+End of JavaScript Fundamental Section.
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+React JS Fundamental Introduction
+
+What You Should Know
+
+Let, Const Var in Javascript
+
+Arrow Function of JS
+
+This Keyword of Javascript
+
+Classes, Object in JS
+
+Project Setup
+
+Project Structure and First Code
+
+Babel ,Webpack
+
+Components
+
+Functional Components
+
+Class Components
+
+JSX
+
+Props
+
+State
+
+Event Handler with Methods
+
+State Manipulating
+
+React DOM
+
+UseState Hook
+
+Two Way Data Binding, on Change
+
+Stylesheet & Inline Style in Component
+
+Single Input
+
+OnChange
+
+Another Way Onchange
+
+OnSubmit
+
+Multiple Input
+
+Set Data to State in One Line
+
+Form Validation
+
+Error Showing
+
+Textarea
+
+Select Option
+
+Lists
+
+JSON Array List
+
+Use Bootstrap
+
+React Bootstrap
+
+Routing
+
+React Router DOM
+
+Router Link Load Component
+
+HTTP Request
+
+Axios,Lifecycle Methods
+
+Fetch Data From API
+
+Link Load Component
+
+Form Component
+
+Http Post Data
+
+ActiveLink
+
+React Hooks
+
+UseState , Class Component to Functional Component
+
+Functional Component to Class Component

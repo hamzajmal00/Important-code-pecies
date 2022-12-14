@@ -1,0 +1,5 @@
+@php
+$prefix = Request::route()->getPrefix();
+$route = Route::current()->getName();
+    
+@endphp
