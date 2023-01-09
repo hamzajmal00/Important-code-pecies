@@ -1,0 +1,4 @@
+<input type="text" name="firstname">
+@if($errors->has('firstname'))
+    <div class="error">{{ $errors->first('firstname') }}</div>
+@endif

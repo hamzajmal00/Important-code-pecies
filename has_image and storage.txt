@@ -1,0 +1,16 @@
+ $project = new Projects();
+
+        if (Input::hasFile('pImage')) {
+            $file = Input::file('pImage');
+            $destination_path = 'images/projects/';
+            $filename = str_random(6) . '_' . $file->getClientOriginalName();
+            $path = $fileTemp->storeAs('public/documents', $fileName);
+            $project->pImage = $filename;
+        }
+        
+        $project->pro_title = Input::get('pName');
+        $project->pro_map = Input::get('pMap');
+        $project->pro_description = Input::get('pDetails');
+        $project->pro_serves = implode(",", array_filter(Input::get('pro_serves')));
+        $project->pro_activity = Input::get('activity');
+        $project->save();
