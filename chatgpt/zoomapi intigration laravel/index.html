@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ChatGPT Code</title>
+  </head>
+  <body>
+    <h1>how to integrate zoom in laravel</h1>
+    <p>
+      To integrate Zoom in a Laravel application, you can use the
+      "zoom-web-sdk-php" package, which is a PHP wrapper for the Zoom API. You
+      can install it using Composer by running the command:
+    </p>
+    <div>
+      <code>
+        <pre>
+                composer require zoom/zoom-web-sdk-php
+            </pre
+        >
+      </code>
+    </div>
+    <p>
+      Once the package is installed, you can use it in your controller to
+      interact with the Zoom API. For example, you can create a new Zoom meeting
+      using the following code:
+      Here are some examples of how you can use the ZoomWebSDK to create, read, update, and delete a meeting in a Laravel controller:
+    </p>
+    <h1>Creating a meeting:</h1>
+    <div>
+      <code>
+        <pre>
+            use Zoom\ZoomWebSDK;
+
+            class ZoomController extends Controller
+            {
+                public function createMeeting()
+                {
+                    $zoom = new ZoomWebSDK;
+                    $zoom->setApiKey(YOUR_API_KEY);
+                    $zoom->setApiSecret(YOUR_API_SECRET);
+            
+                    $meeting = $zoom->createMeeting([
+                        'topic' => 'Test Meeting',
+                        'type' => 2,
+                        'start_time' => '2022-01-01T09:00:00Z',
+                        'duration' => 60,
+                        'timezone' => 'UTC',
+                    ]);
+            
+                    return $meeting;
+                }
+            }
+        </pre>
+      </code>
+    </div>
+    <h1>Retrieving a meeting:</h1>
+
+    <div>
+        <code>
+            <pre>
+                use Zoom\ZoomWebSDK;
+
+                    class ZoomController extends Controller
+                    {
+                        public function getMeeting($meetingId)
+                        {
+                            $zoom = new ZoomWebSDK;
+                            $zoom->setApiKey(YOUR_API_KEY);
+                            $zoom->setApiSecret(YOUR_API_SECRET);
+
+                            $meeting = $zoom->getMeeting($meetingId);
+
+                            return $meeting;
+                        }
+                    }
+            </pre>
+        </code>
+    </div>
+    <h1>Updating a meeting:</h1>
+
+    <div>
+        <code>
+            <pre>
+                use Zoom\ZoomWebSDK;
+
+                class ZoomController extends Controller
+                {
+                    public function updateMeeting($meetingId)
+                    {
+                        $zoom = new ZoomWebSDK;
+                        $zoom->setApiKey(YOUR_API_KEY);
+                        $zoom->setApiSecret(YOUR_API_SECRET);
+                
+                        $updatedMeeting = $zoom->updateMeeting($meetingId, [
+                            'topic' => 'Updated Test Meeting',
+                            'start_time' => '2022-01-01T10:00:00Z',
+                            'duration' => 90,
+                        ]);
+                
+                        return $updatedMeeting;
+                    }
+                }
+            </pre>
+        </code>
+    </div>
+    <h1>Deleting a meeting:</h1>
+
+    <div>
+        <code>
+            <pre>
+                use Zoom\ZoomWebSDK;
+
+                class ZoomController extends Controller
+                {
+                    public function deleteMeeting($meetingId)
+                    {
+                        $zoom = new ZoomWebSDK;
+                        $zoom->setApiKey(YOUR_API_KEY);
+                        $zoom->setApiSecret(YOUR_API_SECRET);
+                
+                        $response = $zoom->deleteMeeting($meetingId);
+                
+                        return $response;
+                    }
+                }
+            </pre>
+        </code>
+    </div>
+    <p>Please keep in mind that you need to replace YOUR_API_KEY and YOUR_API_SECRET with your actual API key and secret, which you can get by creating an app on Zoom developer dashboard. Also, you can find more information about the methods and parameters in the SDK documentation: https://marketplace.zoom.us/docs/sdk/native-sdks/web/getting-started/introduction</p>
+
+  </body>
+</html>
